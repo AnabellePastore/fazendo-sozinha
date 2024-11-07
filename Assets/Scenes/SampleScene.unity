@@ -1448,6 +1448,9 @@ GameObject:
   - component: {fileID: 2100712133}
   - component: {fileID: 2100712134}
   - component: {fileID: 2100712135}
+  - component: {fileID: 2100712136}
+  - component: {fileID: 2100712137}
+  - component: {fileID: 2100712138}
   m_Layer: 0
   m_Name: Attack3_5
   m_TagString: Untagged
@@ -1623,12 +1626,52 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2100712128}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17c4a130e35072442af7d966a007e932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   powerUp: 0
+--- !u!114 &2100712136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100712128}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231056f9143177846b182a4aecb55f4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pocaoDeVida: 0
+--- !u!114 &2100712137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100712128}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e1418db8fdc36a40aa0720e5b454d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pontos: 0
+--- !u!114 &2100712138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100712128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6a6b3dae5ec3ed46a8e9461dc6204f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guerreiro: 1
+  mago: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
